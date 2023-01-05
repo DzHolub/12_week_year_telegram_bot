@@ -1,6 +1,6 @@
 var apiToken = "[INSERT YOUR TELEGRAM API TOKEN]";
 var tgUrl = "https://api.telegram.org/bot" + apiToken + "/";
-var webAppUrl = "[INSER LINK ON THE GOOGLE SCRIPT WEBB APP]";
+var webAppUrl = "[INSERT LINK OF THE GOOGLE SCRIPT WEB APP]";
 
 var ssId = "[YOUR SPREADSHEET ID]";
 var ssDataSheet = SpreadsheetApp.openById(ssId).getSheetByName("data");
